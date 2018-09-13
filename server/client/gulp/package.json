@@ -1,0 +1,35 @@
+{
+  "name": "JSFactory",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack --progress --colors --watch",
+    "build": "webpack --min",
+    "projectcss": "gulp --gulpfile  projectcss.js",
+    "autoprefix": "gulp --gulpfile  autoprefix.js"
+  },
+  "dependencies": {
+    "antd": "^2.12.8",
+    "grunt-cli": "^1.2.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-closure-compiler": "0.0.21",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-data-uri": "^0.3.0",
+    "grunt-image-embed": "^0.3.3",
+    "gulp": "^3.9.1",
+    "gulp-base64": "^0.1.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.2.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^5.0.0"
+  }
+}

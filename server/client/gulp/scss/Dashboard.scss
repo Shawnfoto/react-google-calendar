@@ -1,0 +1,22 @@
+// .list-center-middle {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+// }
+.collection-item.event-style {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+}
+.list-control {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 0;
+}
+.list-summary {
+  padding: 12px;
+}
