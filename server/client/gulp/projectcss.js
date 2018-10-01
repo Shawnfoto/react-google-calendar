@@ -1,14 +1,15 @@
-var gulp = require("gulp");
-var concat = require("gulp-concat");
-var minifyCSS = require("gulp-minify-css");
-var uglify = require("gulp-uglify");
-var rename = require("gulp-rename");
-var base64 = require("gulp-base64");
-var sass = require("gulp-sass");
-var watch = require("gulp-watch");
+const gulp = require("gulp");
+const concat = require("gulp-concat");
+const minifyCSS = require("gulp-minify-css");
+const uglify = require("gulp-uglify");
+const rename = require("gulp-rename");
+const base64 = require("gulp-base64");
+const sass = require("gulp-sass");
+const watch = require("gulp-watch");
 
-var name = "./scss/index.scss";
-var outputfile = "../src/components/";
+// const name = "./scss/index.scss";
+const name = "./scss/*.scss";
+const outputfile = "../src/style";
 
 gulp.task("sass", function() {
   return gulp

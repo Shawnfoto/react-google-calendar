@@ -1,0 +1,27 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 500; }
+
+.collection-item.event-style {
+  position: relative;
+  cursor: pointer;
+  padding: 0; }
+  .collection-item.event-style:hover {
+    background-color: rgba(0, 0, 0, 0.04); }
+
+.list-control {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 0; }
+
+.list-summary {
+  padding: 12px; }
+
+.calEvent .ant-modal-header {
+  background-color: #039be5; }
+
+.calEvent .ant-modal-title {
+  color: white; }

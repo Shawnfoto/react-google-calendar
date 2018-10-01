@@ -5,6 +5,7 @@ import { connect } from "react-redux";
 import * as actions from "../../actions";
 
 import Header from "../Header/index";
+import WrappedNormalLoginForm from "../Login/Login";
 import Landing from "../Landing/index";
 import Dashboard from "../Dashboard/index";
 import CalEvent from "../Calendar/index";
@@ -19,12 +20,14 @@ class App extends Component {
     const { auth } = this.props;
 
     return (
-      <div className="container">
+      <div>
         <BrowserRouter>
           <div>
             <Header />
             <Switch>
               <Route exact path="/" component={Landing} />
+              <Route exact path="/Login" component={WrappedNormalLoginForm} />
+
               <PrivateRoute
                 exact
                 path="/surveys"
